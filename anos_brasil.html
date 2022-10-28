@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+var descobrimentoBr = 1500;
+var idadeMedia = 28;
+var anoAtual = 2022;
+
+function pulaLinha(){
+    document.write("<br>");
+}
+
+function mostra (texto){
+    document.write(texto);
+    pulaLinha();
+}
+
+mostra("Desde o descobrimento do Brasil, ja se passaram "+(anoAtual-descobrimentoBr)+" anos...")
+mostra("Portanto, podemos dizer que ja se passaram em média "+ (Math.round((anoAtual-descobrimentoBr)/idadeMedia))+" gerações até hoje.")
+//poderiamos fazer tambem a instrução acima criando uma variavel que receberia a media, para nao precisar criar o calculo dentro da linha.
+
+   
+</script>

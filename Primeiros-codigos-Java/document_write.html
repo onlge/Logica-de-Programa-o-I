@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var ano = 2017;
+    var n = 3;
+    var minhaidade = 20;
+    var idadeFlavio = 39;/*Por boa pratica declaramos as variaveis em minuscula, porem quando sao duas palavras a segunda deve se iniciar com letra maiuscula*/
+    var idadeJoaquim = 20;/*Por boa pratica declaramos as variaveis em minuscula, porem quando sao duas palavras a segunda deve se iniciar com letra maiuscula*/
+    var idadeBarney = 41;/*Por boa pratica declaramos as variaveis em minuscula, porem quando sao duas palavras a segunda deve se iniciar com letra maiuscula*/
+    var nome = "Flavio"
+
+    document.write("Flávio nasceu em " + (2016 - 39)+"<br>");
+    document.write("Joaquim nasceu em " + (2016 - 20)+"<br>");
+    document.write("Barney nasceu em " + (2016 - 40)+"<br>");
+    document.write("A média das idades é: " + (39+20+41)/3);
+    document.write("<br>");
+
+    var media = (idadeFlavio+idadeJoaquim+idadeBarney)/3; /*Usamos tb a variavel para achar a media */
+    document.write("A média das idades é: " + Math.round(media));/*Podemos tb usar um arredondamento
+    com o round*/
+    document.write("<br>");
+    document.write("A idade de " + nome + " e: " + idadeFlavio);
+    document.write("<br>");
+
+    /*Abaixo nos declaramos a variavel ano para receber um valor unico */
+
+    document.write("Flávio nasceu em " + (ano - 39)+"<br>");
+    document.write("Joaquim nasceu em " + (ano - 20)+"<br>");
+
+    /* Como a leitura é linha a linha, podemos declarar a variavel "ano" novamente para
+    receber um novo valor*/
+    ano = 2016;
+    document.write("Barney nasceu em " + (ano - 40));
+    document.write("<br>");
+    document.write("O resultado da formula é: " + n *(10/20) );
+    document.write("<br>");
+    document.write("Eu nasci em " + (2016-minhaidade));
+    document.write("<br>");
+
+
+    
+</script>
